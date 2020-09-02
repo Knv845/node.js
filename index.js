@@ -1,5 +1,8 @@
 const supervillains = require('supervillains');
+const superheroes = require('superheroes');
 
 
 var myvillains = supervillains.random();
-console.log(myvillains);
+var myheroes = superheroes.random();
+console.log('my superhero name is '+ myheroes);
+console,console.log('my villan is ' + myvillains);
